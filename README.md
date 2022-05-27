@@ -6,7 +6,7 @@ git init <br>
 git add README.md <br>
 git commit -m "first commit" <br>
 git branch -M main <br>
-git remote add origin https://github.com/RockkLee/test.git <br>
+git remote add origin https://github.com/RockkLee/UUU_Java.git <br>
 git push -u origin main <br>
 
 <br><br>
