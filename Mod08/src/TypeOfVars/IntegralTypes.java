@@ -29,12 +29,4 @@ public class IntegralTypes {
 	
 	}
 	
-	static void bytePrint(byte b) {
-		System.out.println(b);
-	}
-	
-	static void intPrint(byte i) {
-		System.out.println(i);
-	}
-	
 }
