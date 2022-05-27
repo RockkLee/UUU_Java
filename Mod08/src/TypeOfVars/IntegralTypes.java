@@ -18,6 +18,12 @@ public class IntegralTypes {
 		System.out.println( (byte) 0xa );
 		System.out.println( (byte) 0xf );
 		
+		// 2進位
+		System.out.println("\n" + "binary:");
+		System.out.println( (byte) 0b0000_0001 );
+		System.out.println( (byte) 0b1111_1111 );
+		System.out.println( (byte) 0b1000_0000 );
+		
 		System.out.println("\n\n\n");
 		
 		
