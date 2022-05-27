@@ -13,6 +13,6 @@ git push -u origin main <br>
 
 
 # push an existing repository from the command line <br>
-git remote add origin https://github.com/RockkLee/test.git <br>
+git remote add origin https://github.com/RockkLee/UUU_Java.git <br>
 git branch -M main <br>
 git push -u origin main <br>
