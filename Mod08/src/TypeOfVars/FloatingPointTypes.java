@@ -3,9 +3,10 @@ package TypeOfVars;
 import java.text.NumberFormat;
 
 public class FloatingPointTypes {
-	static NumberFormat numFormat = NumberFormat.getInstance();
+	
 	public static void main(String[] args) {
 		
+		NumberFormat numFormat = NumberFormat.getInstance();
 		numFormat.setMaximumFractionDigits(2);
 		numFormat.setMaximumIntegerDigits(1);
 		
