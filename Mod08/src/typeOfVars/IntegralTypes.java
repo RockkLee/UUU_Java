@@ -1,4 +1,4 @@
-package TypeOfVars;
+package typeOfVars;
 
 public class IntegralTypes {
 	public static void main(String[] args) {

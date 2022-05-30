@@ -1,4 +1,4 @@
-package TypeOfVars;
+package typeOfVars;
 
 import java.text.NumberFormat;
 import java.util.Locale;
