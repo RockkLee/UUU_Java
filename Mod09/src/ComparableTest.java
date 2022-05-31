@@ -2,7 +2,7 @@
 public class ComparableTest {
 	public static void main(String[] args) {
 		Charactor Jin = new Charactor(new Rank(true, true, true, true, true, true));
-		Charactor Anna = new Charactor(new Rank(true, false, false, false, false, false));
+		Charactor Anna = new Charactor(new Rank(true, false, false, false, false, true));
 		
 		System.out.println( Jin.compareTo(Anna) );
 	}
@@ -12,7 +12,7 @@ public class ComparableTest {
 
 
 
-
+//
 
 
 class Charactor implements Comparable<Charactor>{
