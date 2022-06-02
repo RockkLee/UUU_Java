@@ -56,7 +56,7 @@ class Btree {
 	public void inorder_add( Node root, Node newNode ) {
 		Node last_node = inorder_traversal(root);
 		
-		if ( root.id > get_layer_num(tree_height) ) {
+		if ( root.id == get_layer_num(tree_height) ) {
 			
 		}
 		
