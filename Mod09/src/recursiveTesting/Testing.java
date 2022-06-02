@@ -2,9 +2,11 @@ package recursiveTesting;
 
 public class Testing {
 	public static void main(String[] args) {
-		Node node = new Node(0);
+		Node root = new Node(0);
 		Btree btree = new Btree();
 		System.out.println( btree.get_layer_num(3) );
+		
+		
 		
 	}
 	
@@ -56,7 +58,15 @@ class Btree {
 	public void inorder_add( Node root, Node newNode ) {
 		Node last_node = inorder_traversal(root);
 		
-		if ( root.id > get_layer_num(tree_height) ) {
+		if ( last_node.id == get_layer_num(tree_height) ) {
+			while ( root.Lnode != null ) {
+				root = root.Lnode;
+			}
+			root.Lnode = newNode; 
+			return;
+		}
+		
+		if ( last_node. ) {
 			
 		}
 		
